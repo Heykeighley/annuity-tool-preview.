@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import AnnuityDemoTool from './AnnuityDemoTool';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <AnnuityDemoTool />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
